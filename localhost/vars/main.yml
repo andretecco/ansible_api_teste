@@ -1,0 +1,3 @@
+---
+# Colocar as variaveis que serão utilizadas para configuração/instalação de programas
+# ou qualquer outra variável que seja utilizada em uma task do Ansible.
