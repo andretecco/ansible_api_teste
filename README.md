@@ -2,8 +2,8 @@
 Playbook para execução local no Ubuntu
 
 Este Playbook foi testado com a versão:
-- SO: Ubuntu 20.04
-- Ansible: 2.9
+- SO: Ubuntu 22.04
+- Ansible: 2.10
 
 > Essa role traz informações de algumas APIs publicas.
 

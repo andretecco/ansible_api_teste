@@ -15,8 +15,8 @@ https://deckofcardsapi.com
 Requisitos
 ------------
 
-- SO: Ubuntu 20.04
-- Ansible: 2.9
+- SO: Ubuntu 22.04
+- Ansible: 2.10
 - Execução com previlégios de super-usuário (root)
 
 Licença
