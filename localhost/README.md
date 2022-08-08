@@ -1,8 +1,16 @@
 Role Localhost
 =========
 
-Role para configuração e instalação de um host local.
-A configuração e instalação é feita no mesmo host que está sendo executado o Ansible.
+# Playbook Ansible para execução Local
+Playbook para execução local no Ubuntu
+
+> Essa role traz informações de algumas APIs publicas.
+
+Links para API
+
+https://api.chucknorris.io/
+
+https://deckofcardsapi.com
 
 Requisitos
 ------------

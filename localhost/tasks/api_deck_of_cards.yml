@@ -1,0 +1,11 @@
+- name: API Deck of Cards - Cartas
+  ansible.builtin.uri:
+    url: https://deckofcardsapi.com/api/deck/oi8efqwhltqr/draw/?count=2
+    method: GET
+    body_format: json
+    return_content: yes
+  register: deck_card
+
+- name: API Deck of Cards - Print Carta
+  ansible.builtin.debug:
+    msg: Carta - "{{ deck_card.json.cards }}"

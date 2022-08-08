@@ -5,7 +5,7 @@
     return_content: yes
   register: msg_chuck_norris
 
-- name: Chuck Norris Diz.
+- name: API Chuck Norris Diz.
   ansible.builtin.debug:
     msg: Chuck Norris diz - "{{ msg_chuck_norris.json.value }}"
 
@@ -17,6 +17,6 @@
     return_content: yes
   register: categories_chuck_norris
 
-- name: Chuck Norris Diz.
+- name: API Chuck Norris Categorias.
   ansible.builtin.debug:
    msg: Categorias - "{{ categories_chuck_norris.json }}"

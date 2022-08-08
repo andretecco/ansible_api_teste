@@ -5,10 +5,14 @@ Este Playbook foi testado com a versão:
 - SO: Ubuntu 20.04
 - Ansible: 2.9
 
-> Essa role traz informações referete a api Chuck Norris
+> Essa role traz informações de algumas APIs publicas.
 
-> Link para API
+Links para API
+
 https://api.chucknorris.io/
+
+https://deckofcardsapi.com
+
 
 Comando para execução de todo o conjunto de playbook.
 
